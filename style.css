@@ -20,17 +20,18 @@ nav {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 li {
   text-align: left;
 }
 
-.recipepreview {
-  text-align: center;
-}
-
 .recipebody {
-  margin-left: 10%;
-  margin-right: -10%;
+  max-width: 512px;
+  width: 80%;
+  margin: auto;
 }
 
 .nav {
@@ -62,7 +63,7 @@ li {
   text-decoration: none;
   color: black;
   margin-left: -35%;
-  position: absolute;
+  position: fixed;
   font-size: larger;
 }
 
